@@ -128,7 +128,7 @@ def caves():
                         
 
                 # update label        
-                label_file_explorer.configure(text = "There are " + str(int(empty_Space/2)) + " bytes of empty space in the exe" + "\n Biggest offset is  "
+                label_file_explorer.configure(text = "There are " + str(int(empty_Space/2)) + " bytes of null space in the exe" + "\n Biggest offset is  "
                                               + label_Output + "\n The rest are stored in cave.txt")
                         
 
